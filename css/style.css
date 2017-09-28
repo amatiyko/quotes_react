@@ -1,0 +1,54 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    font-family: Raleway;
+}
+.container > div {
+  padding: 30px;
+}
+.quoteTitle {
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+.quote-container {
+  width: 90%;
+  border-radius: 20px;
+  min-height: 75px;
+  background-color: #A7E9E7;
+  margin: 30px auto;
+  padding: 10px;
+}
+.quote-container p {
+  font-size : 24px;
+}
+.quote-container small {
+  display: block;
+}
+.quote-container p, .quote-container small {
+  text-align: center;
+}
+.btn {
+  position: relative;
+  display: block;
+  height: 38px;
+  width: 50%;
+  margin: 10px auto;
+  border: none;
+  outline:none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+.get-quote-btn {
+  background-color: #00b649;
+}
+.get-quote-btn:hover {
+  background-color: #009b3e;
+}
+.color-btn {
+  background-color: #ccc;
+}
+.color-btn:hover {
+  background-color: #aaaaaa;
+}
